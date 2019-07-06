@@ -1,0 +1,4 @@
+paths = []
+titles =[]
+conditions =[]
+contacts =[]

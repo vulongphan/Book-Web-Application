@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Inspiration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type = "text/css" media = "screen" href = "web_page.css">
+    <style>
+    .center {
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255);
+}
+    
+    body {
+      background-image: url("https://img2.thuthuatphanmem.vn/uploads/2018/12/30/nen-background-trang-dep-va-don-gian_110344503.jpg");
+      background-size: 100% 100%;
+      background-position: left center;
+      background-color: #cccccc;
+      background-size: 100% 100%;
+      height: 1300px;
+      width: 1270px;
+      background-size: 100% 100%;
+}
+    
+    </style>
+</head>
+<body>
+    <!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="https://i0.wp.com/www.samuelthomasdavies.com/wp-content/uploads/2018/01/Book-Summaries-2.png?resize=250%2C250&ssl=1" width="30" height="30" class="d-inline-block align-top">
+          Book Inspiration
+        </a>
+      </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                          <a class="nav-link" href="index.html"><b>Trang chủ</b><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                  <font color="black" ><b>Danh mục sách</b> </font> 
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href = "manga.html">Manga</a>
+                                  <a class="dropdown-item" href = "kinhdien.html">Kinh điển</a>
+                                  <a class="dropdown-item" href = "hucau.html">Sách hư cấu</a>
+                                  <a class="dropdown-item" href = "phihucau.html">Phi hư cấu</a>
+                                  <a class="dropdown-item" href = "khoahoc.html">Khoa học tự nhiên-nhân văn</a>
+                                  <a class="dropdown-item" href = "tuluc.html">Sách tự lực</a>
+                                  <a class="dropdown-item" href = "nauan.html">Sách nấu ăn</a>
+                                </div>
+                            </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="recommended.html"><b>Sách recommended</b><span class="sr-only">(current)</span></a>
+                    </li>
+                  
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">
+                              <font color="black" ><b>Độ tuổi</b></font> 
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="thieunhi.html">Thiếu nhi</a>
+                              <a class="dropdown-item" href="teen.html">Tuổi teen</a>
+                              <a class="dropdown-item" href="phuhuynh.html">Phụ huynh</a>
+                              </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <font color="black" ><b>Trao đổi sách đã đọc<b></font>                            
+                        </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href = "upload.html">Upload sách</a>
+                        <a class="dropdown-item" href = "books_exchange.html">Sách available</a>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type= "search" placeholder="Tìm kiếm" aria-label="Tìm kiếm" id = "nhập">
+                    <button class="btn btn-outline-success my-2 my-sm-0" id = "search" onclick="Search()">Tìm kiếm</button>
+                  </div>
+                </div>
+              </nav>   
+
+        <div class = "w-50 h-50px b_top t_centered center" style = "font-family: monospace; font-size: 30px">
+          <p><b>Manga</b></p> 
+            <img class="list_manga" name="key" value="0"src="https://images-na.ssl-images-amazon.com/images/I/81-DvO03QeL.jpg" width="140" height="180" class="d-inline-block align-top">
+            <img class="list_manga" name="key" value="1"src="http://image.phimmoi.net/film/1369/poster.medium.jpg" width="140" height="180" class="d-inline-block align-top">
+            <img class="list_manga" name="key" value="2"src="http://image.phimmoi.net/film/665/poster.medium.jpg" width="140" height="180" class="d-inline-block align-top">
+            <img class="list_manga" name="key" value="3" src="https://www.fahasa.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9786042088251.jpg" width="140" height="180" class="d-inline-block align-top">
+            
+            
+        </div>
+        
+        <div class = "w-50 h-50px b_center t_centered center" style = "font-family: monospace; font-size: 30px">
+          <p><b>Phi hư cấu </b></p>
+            <img class="list_nfp" name="key" value="0"src="https://bizweb.dktcdn.net/100/197/269/products/ban-ve-khe-uoc-xa-hoi-outline-26-2-2018-01.jpg?v=1520935678293" width="140" height="170" class="d-inline-block align-top">
+            <img class="list_nf" name="key" value="0"src="https://salt.tikicdn.com/cache/550x550/media/catalog/product/i/m/img011_2.jpg" width="140" height="170" class="d-inline-block align-top">
+            <img class="list_nf" name="key" value="0"src="https://sachsuthattphcm.com.vn/wp-content/uploads/2017/03/bttgdd.jpg" width="140" height="170" class="d-inline-block align-top">     
+        </div>
+
+        <div class = "w-50 h-50px b_below t_centered center" style = "font-family: monospace; font-size: 30px">
+            <p><b>Sách tự lực </b></p>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71t4GuxLCuL.jpg" width="140" height="170" class="d-inline-block align-top">
+            <img src="https://nxbphunu.com.vn/wp-content/uploads/2018/08/Am-thuc-viet-nam-va-the-gioi.jpg" width="140" height="170" class="d-inline-block align-top">
+          </div>
+
+        
+      <script>
+          function scrollWin() {
+            window.scrollTo(0, 50);
+          }
+          scrollWin()
+      </script>
+    <script src = "database.js"></script>
+    <script src="show_data.js"></script>
+
+    <script>
+    function Search() {
+      var input = document.getElementById("nhập").value;
+      console.log(input)
+      var list_manga = bdtb_cat.Manga;
+      for(let i = 0;i<list_manga.length;i++){
+        var title = list_manga[i]["Title"] 
+        if (title == input){
+          var search = document.getElementById("search")
+          // search.addEventListener("click", () => {
+            input = ""
+            console.log(input)
+            window.location.href = `book_info.html?key= ${i}`
+          // }
+          // )
+        }
+      }
+    }
+    manga()
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+</body>
+</html>
+

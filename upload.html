@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Upload sách - Book Inspiration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type = "text/css" media = "screen" href = "web_page.css">
+    <style>
+    .center {
+    text-align: center;
+    border: 3px solid gray;
+}
+    body {
+        background-image: url("https://img2.thuthuatphanmem.vn/uploads/2018/12/30/nen-background-trang-dep-va-don-gian_110344503.jpg");
+        background-size: 100% 100%;
+        background-position: left center;
+        background-color: #cccccc;
+        background-size: 100% 100%;
+        height: 1300px;
+        width: 1270px;
+  }
+</style>
+</head>
+<body>
+        <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                  <img src="https://i0.wp.com/www.samuelthomasdavies.com/wp-content/uploads/2018/01/Book-Summaries-2.png?resize=250%2C250&ssl=1" width="30" height="30" class="d-inline-block align-top">
+                  Book Inspiration
+                </a>
+              </nav>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                  <a class="nav-link" href="index.html"><b>Trang chủ</b><span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                          <font color="black" ><b>Danh mục sách</b> </font> 
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                          <a class="dropdown-item" href = "manga.html">Manga</a>
+                                          <a class="dropdown-item" href = "kinhdien.html">Kinh điển</a>
+                                          <a class="dropdown-item" href = "hucau.html">Sách hư cấu</a>
+                                          <a class="dropdown-item" href = "phihucau.html">Phi hư cấu</a>
+                                          <a class="dropdown-item" href = "khoahoc.html">Khoa học tự nhiên-nhân văn</a>
+                                          <a class="dropdown-item" href = "tuluc.html">Sách tự lực</a>
+                                          <a class="dropdown-item" href = "nauan.html">Sách nấu ăn</a>
+                                        </div>
+                                    </li>
+                            <li class="nav-item active">
+                              <a class="nav-link" href="recommended.html"><b>Sách recommended</b><span class="sr-only">(current)</span></a>
+                            </li>
+                  
+                            <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true">
+                                      <font color="black" ><b>Độ tuổi</b></font> 
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="thieunhi.html">Thiếu nhi</a>
+                                      <a class="dropdown-item" href="teen.html">Tuổi teen</a>
+                                      <a class="dropdown-item" href="phuhuynh.html">Phụ huynh</a>
+                                      </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <font color="black" ><b>Trao đổi sách đã đọc<b></font>                            
+                                </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href = "upload.html">Upload sách</a>
+                                <a class="dropdown-item" href = "books_exchange.html">Sách available</a>
+                              </div>
+                            </li>
+                          </ul>
+                          <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Tìm kiếm">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Tìm kiếm</button>
+                          </form>
+                        </div>
+                      </nav>   
+<div class="t_centered" style = "font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 29px">
+  <p>Chúng mình tin rằng việc trao đổi sách giữa những người yêu sách là vô cùng quan trọng!</p>
+</div>
+<!-- <form action="/action_page.php">
+    Hãy chọn ảnh của đầu sách mà bạn muốn upload nha: <br><input type="file" name="myFile">
+   <br>
+   <br>
+    <input type="submit">
+  </form> -->
+
+<form>
+      <div class="t_cen" style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+        <script>
+        // var loadFile = function(event) {
+        //   source = URL.createObjectURL(event.target.files[0]);
+        //   console.log("source ready")
+        //   localStorage.setItem("src_1",source)
+        //   console.log("source saved to local storage")
+        // }
+        </script> 
+              Hãy chọn ảnh của đầu sách mà bạn muốn upload nha:
+                  <input type="file" id="img">
+                  <img id="myimage" style = "display:none" >
+                  <!-- <button type="button" onclick="get_path_img()">Submit file </button> -->
+      </div>
+
+<div class="t_cen" style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+    Hãy ghi lại tên của đầu sách bạn vừa upload này: 
+    <input type="text"  height = "50" id="title" value ="">
+    <!-- <button type="button" onclick="get_title()">Submit file </button> -->
+  </div>
+
+<div class="t_cen" style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+    Hãy cho biết tình trạng của quyển sách bạn muốn trao đổi nha: 
+    <input type="text" height = "50" id="condition" value ="">
+    <!-- <button type="button" onclick="get_condition()">Submit file </button> -->
+  </div>
+
+<div class="t_cen" style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+        Nhớ ghi lại gmail của bạn nhé: 
+        <input type="text" height = "50" id="gmail" value ="">
+        <!-- <button type="button" onclick="get_gmail()">Submit file </button> -->
+      </div>
+<div class="t_cen" style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+        Hãy để lại số điện thoại của bạn ở đây để tiện trao đổi nè: 
+        <input type="text" height = "50" id="phone" value ="">
+        <!-- <button type="button" onclick="get_phone()">Submit file </button> -->
+      </div>
+<div class="t_cen">       
+  <button type="button" onclick="onFileSelected();get_condition();get_title();get_gmail();get_phone();message()">Submit file </button>
+</div> 
+</form>
+</div>
+
+
+
+<!-- <script src = "convert_img.js"></script> -->
+<script>
+function message(){
+  alert("Chúc mừng bạn đã submit thành công :>")
+}
+
+function get_path_img(arg){
+    // var image_0 = document.getElementById('image').value;
+    // // var img_data = getBase64Image(image_0);
+    // var img_data = JSON.stringify(image_0)
+    // console.log(img_data)
+    // localStorage.setItem("img_data", img_data);
+    
+}
+function onFileSelected(event) {
+
+            var selectedFile = document.querySelector("#img").files[0];
+            // console.log(img);
+            
+            var reader = new FileReader();
+            var imgtag = document.getElementById("myimage");
+            imgtag.title = selectedFile.name;
+            
+            reader.onload = function (event) {
+                console.log(event.target.result)
+                //Lấy data từ localstorage
+                let data = JSON.parse(localStorage.getItem('data'));
+                //kiểm tra xêm đã có hay chưa
+                if (!!!data) {
+                    data = [];
+                    data.push({
+                        img: event.target.result,
+                        name: name
+                    });
+                    localStorage.setItem('data', JSON.stringify(data));
+                    // loadData();
+                }else{
+                    data.push({
+                        img: event.target.result,
+                        name: name
+                    });
+                    localStorage.setItem('data', JSON.stringify(data));
+                }
+                imgtag.src = event.target.result;
+            };
+            reader.readAsDataURL(selectedFile);
+        }
+        
+titles=[]
+function get_title(arg){
+  var input = document.getElementById("title").value;
+  titles.push(input)
+  console.log(titles)
+  localStorage.setItem("titles",JSON.stringify(titles))
+  
+}
+
+conditions=[]
+function get_condition(arg){
+  var input = document.getElementById("condition").value;
+  conditions.push(input)
+  console.log(conditions)
+  localStorage.setItem("conditions",JSON.stringify(conditions))
+  
+}
+
+gmails=[]
+function get_gmail(arg){
+  var input = document.getElementById("gmail").value;
+  gmails.push(input)
+  console.log(gmails)
+  localStorage.setItem("gmails",JSON.stringify(gmails))
+  
+}
+
+phones = []
+function get_phone(arg){
+  var input = document.getElementById("phone").value;
+  phones.push(input)
+  console.log(phones)
+  localStorage.setItem("phones",JSON.stringify(phones))
+  
+}
+
+</script>
+<script type="text/javascript" src = "user_data.js" ></script>
+
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>        
+</body>
+</html>
