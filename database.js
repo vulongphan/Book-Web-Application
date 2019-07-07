@@ -9,7 +9,7 @@ var bdtb_cat = {"Manga":[
 },
 {
     "key":1,
-    "Title":"Dragon Ball – Bảy viên ngọc rồng",
+    "Title":"Dragon Ball",
     "Summary":"“Bảy viên ngọc rồng” – Dragon Ball là bộ truyện tranh gắn liền với tuổi thơ của thế hệ trẻ chúng ta. Bộ truyện kể về cậu bé Son Goku khi lúc bé bỏng đến lúc trưởng thành. Songoku là người lương thiện, luôn giúp đỡ bạn bè và chống lại những kẻ hung ác luôn muốn có ý định bá chủ vũ trụ.Xuyên suốt hành trình từ nhỏ đến lớn, Son Goku là vị anh hùng của Trái Đất khi nhiều lần giúp “hành tinh xanh” thoát khỏi nạn diệt vong từ những kẻ thủ ác như Frieza, Xên Bọ Hung hay Ma Bư,… Ngoài ra, “khỉ con” còn giúp những Piccolo, Vegeta,… cải tà quy chính, làm những điều tốt.",
     "Author":"Toriyama Akira",
     "Author_info":"Toriyama Akira (鳥山 明 Toriyama Akira?, Điểu Sơn Minh) sinh ngày 5-4-1955 tại Nagoya, Aichi[2] (Nhật Bản) nổi tiếng với bộ Bảy viên ngọc rồng. Nét vẽ của ông có ảnh hưởng từ hai bộ Astro Boy (Osamu Tezuka) và 101 con chó đốm (Walt Disney).Năm 1984, ông cho ra mắt bộ Dragon Ball và tạo nên một cú sốc lớn – 35 triệu bản đã được tiêu thụ chỉ riêng ở Nhật Bản. Hơn thế nữa, tác phẩm lọt vào hàng top truyện bán chạy nhất với trên 500 triệu bản trên toàn thế giới. Ngay cả ở Mỹ và các nước Mỹ Latinh đó, bộ truyện cũng rất thành công. Dragon Ball là một bộ Anime, bộ Manga hay nhì thế giới.",
@@ -17,7 +17,7 @@ var bdtb_cat = {"Manga":[
 },
 {   
     "key":2,
-    "Title":"One Piece – Đảo Hải Tặc",
+    "Title":"One Piece",
     "Summary":"Nói về những bộ truyện tranh hay nhất xứ sở Mặt trời mọc thì chúng ta phải nhắc đến One Piece – Đảo Hải Tặc. Đây là một trong những bộ Manga/Anime có sức hút lớn với giới trẻ hiện nay và ra đời khá sớm. Đảo Hải Tặc là bộ truyện kể về nhóm cướp biển có tên “Hải tặc Mũ rơm”, được lãnh đạo bởi nhân vật chính Luffy. Không hề kém cạnh so với Doremon, Son Goku, Naruto hay Conan, Luffy là nhân vật được nhiều khán giả yêu mến. Sở hữu “chiếc Mũ rơm” và bộ trang phục giản dị, Luffy được nhận xét là giống “hai lúa nhà quê” hơn so với tên cướp biển. Ngoài ra, thông qua bộ truyện Đảo Hải Tặc, tác giả Oda Eiichiro còn gửi gắm tới bạn đọc những thông điệp về tình bạn, tinh thân đồng đội cũng như những ước mơ, hoài bão của mỗi người.",
     "Author":"Oda Eiichiro",
     "Author_info":"Khi còn đang học tại trường phổ thông trung học cơ sở 2 trực thuộc đại học Toukai, Oda đã nhận được giải thưởng cây bút mới (giải thưởng Tezuka) của tạp chí Shounen Jump cho truyện ngắn Wanted! (Ở thời điểm này, bút danh của ông là Tsukihimizuki Kindo (月火水木金土 - Nguyệt Hỏa Thủy Mộc Kim Thổ)).Sau đó Oda lên Đại học Toukai, khoa kiến trúc, và bỏ dở giữa chừng khi đang học năm thứ 1 để làm trợ lý cho Watsuki Nobuhiro, Kaitani Shinobu, Tokuhiro Masaya. Trong thời gian làm trợ lý, ông đã cho ra đời one-shot ROMANCE DAWN, tiền thân của ONE PIECE.Năm 1997, ông bắt đầu sáng tác bộ truyện tranh dài kỳ về thế giới của hải tặc được đăng trên tuần san Shounen Jump, ONE PIECE. Bộ truyện này đã giúp tên tuổi ông trở nên nổi tiếng khắp nước Nhật và trên toàn thế giới.",
