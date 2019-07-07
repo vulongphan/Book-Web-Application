@@ -25,7 +25,7 @@ var bdtb_cat = {"Manga":[
 },
     {
     "key":3,
-    "Title":"Thám tử lừng danh Conan",
+    "Title":"Conan",
     "Summary":"Nếu đã từng đọc Conan, chắc chắn quý độc giả từng hòa mình vào các vụ phá án lý kỳ của bộ truyện. “Thám tử lừng danh Conan” là bộ truyện kể về chàng thám tử tài hoa Kudo Shinichi. Trong một lần phá án, Shinichi bị thành viên trong tổ chức áo đen phát hiện và cho uống thuốc độc, khiến thân hình cậu quay về hình dạng của một chú nhóc tiểu học.Sau đó, Shinichi đổi tên thành Conan và sống tại nhà “thám tử dởm” Mori Kogoro. Xuyên suốt hành trình của bộ truyện, Conan thường xuyên âm thầm giúp ông Mori khám phá và điều tra các vụ án, tìm ra được chân tướng thủ phạm, đưa các kẻ sát nhân ra ánh sáng.",
     "Author":"Gosho Aoyama",
     "Author_info":"Aoyama Gōshō từ lúc còn trẻ đã là một người vẽ rất giỏi. Khi còn học ở trường cấp 2, Aoyama đã từng đoạt giải nhất một cuộc thi vẽ tranh với bức vẽ mang tên 'Cuộc chiến Yukiai', và bức tranh này đã được trưng bày tại cửa hàng Daimaru ở Tottori. Ông tốt nghiệp trường cấp ba Ikuei. Sau đó, ông theo học ngành Mỹ thuật tại trường Đại học Nhật Bản (日本大学) - Trường Đại học lớn nhất Nhật Bản. Tại đây, mùa đông năm 1986, ông tham gia cuộc thi viết truyện tranh cho sinh viên năm thứ nhất và giành chiến thắng, đó chính là một bước ngoặt trong cuộc đời Aoyama, và cũng là bàn đạp để ông hướng tới sự nghiệp sáng tác truyện tranh sau này.",
