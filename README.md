@@ -1,2 +1,2 @@
-# bookwebfinal
-đây là final product nhé
+# Book web application
+Final product for this book web
